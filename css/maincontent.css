@@ -1,0 +1,119 @@
+.nameandbread   {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+}
+a {
+    cursor: pointer;
+
+}
+.title {
+    font-size: 3rem;
+    margin-bottom: 8.5rem;
+}
+.bread__crumbs {
+    display: flex;
+    width: 14%;
+    justify-content: space-between;
+}
+.bread__crumbs__content {
+    text-decoration: underline;
+    color: #fff;
+}
+.bread__crumbs__content:nth-child(2n){
+    text-decoration: none;
+}
+.info__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    padding-bottom: 5rem;
+}
+.place__for__info {
+    display: flex;
+}
+.img__wrapper {
+    flex: 1.4;
+    margin-right: 2vw;
+}
+.newsimg {
+    width: 100%;
+}
+.text__wrapper {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.text__title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.text__description {
+    color: #303030;
+}
+.button {
+    padding: 0.7rem 2rem;
+    border: #F5170E solid 1px;
+    width: 5rem;
+    text-align: center;
+    border-radius: 35px;
+}
+.button--red__text {
+    background: #fff;
+    color: #F5170E;
+}
+.button--red__bg {
+    background: #F5170E;
+    color: #fff;
+}
+.pages {
+    width: 30%;
+    text-align: center;
+    color: #303030;
+}
+.pages__list {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+.name__pages {
+    flex: 1;
+}
+.pages__link {
+    color: #303030;
+}
+.pages__menu {
+    display: flex;
+    
+    flex: 1;
+    list-style: none;
+    justify-content: space-between;
+}
+.pages__el {
+    width: 20px;
+    text-align: center;
+    margin-right: 10px;
+    
+}
+.pages__el:hover {
+    color: #fff;
+    background: #F5170E;
+    border-radius: 50%;
+}
+.pages__el--active {
+    color: #fff;
+    background: #F5170E;
+    border-radius: 50%;
+}
+.pages__el--active > .pages__link {
+    color: #fff;
+    background: #F5170E;
+    border-radius: 50%;
+}
+.pages__el:hover > .pages__link {
+    color: #fff;
+}
+

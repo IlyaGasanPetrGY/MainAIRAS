@@ -1,0 +1,29 @@
+.section__footer {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background: #001821;
+}
+.footer {
+    width: 80%;
+    height: 11vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.lick__bread__crums {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.bread__crumbs__content--stick {
+    text-decoration: none;
+}
+.lick__partners__linc__img {
+    height: max-content;
+}
+a:hover{
+    color: rgb(166, 240, 147);
+}
