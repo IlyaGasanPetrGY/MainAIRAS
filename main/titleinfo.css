@@ -1,0 +1,23 @@
+.container__content {
+    color: #fff;
+}
+.title__info {
+    width: 50%;
+    margin-bottom: 11.5rem;
+}
+.title__text {
+    font-size: 4rem;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+.title__discription{
+    margin-bottom: 2.1rem;
+}
+.title__buttom {
+    padding: 20px 45px;
+    background: #F5170E;
+    border-radius: 32px;
+}
+.title__buttom:hover {
+    background: #fd807c;
+}

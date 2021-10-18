@@ -1,0 +1,19 @@
+.news {
+    display: flex;
+    flex-direction: column;
+}
+.news__menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+.news__el {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 20px;
+    height: 300px;
+    background: url("./../png/plane.png") no-repeat;
+}
