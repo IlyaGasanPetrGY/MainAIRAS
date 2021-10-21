@@ -10,7 +10,7 @@
 .header__container {
 display: flex;
 justify-content: space-between;
-width: 80%;
+width: 90%;
 }
 .logo__link {
 flex: 1;
@@ -79,5 +79,5 @@ list-style: none;
     padding-bottom: 10px;
 }
 .container__content {
-    width: 80%;
+    width: 90%;
 }
