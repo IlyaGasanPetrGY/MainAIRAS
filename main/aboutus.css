@@ -1,0 +1,48 @@
+:root {
+    --mrBot: 3rem;
+  }
+.about__us {
+    width: 100%;
+    position: relative;
+}
+.bg__wrapper__about__us {
+    position: relative;
+    width: 490px;
+    height: 505px;
+    background: url("./../png/bike.png") top left / cover ;
+    margin-bottom: -110px;
+}
+.about__us__title {
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    margin-top:  var(--mrBot);
+    margin-left: var(--mrBot);
+}
+.about__us__text {
+    margin-bottom: var(--mrBot);
+    margin-left:  var(--mrBot);
+}
+.about__discr {
+    position: relative;
+    margin-left: 300px;
+    width: auto;
+    background: url("./../png/mountains.png") right / cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 5px;
+    color: #060606;
+
+}
+.about__us__button {
+    padding: 20px 45px;
+    background: #F5170E;
+    border-radius: 32px;
+    width: 15%;
+    text-align: center;
+    vertical-align: middle;
+    
+    margin-bottom: var(--mrBot);
+    margin-left:  var(--mrBot);
+}

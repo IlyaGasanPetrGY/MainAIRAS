@@ -1,11 +1,18 @@
 .news {
     display: flex;
     flex-direction: column;
+    margin-bottom: 10rem;
+}
+.wrapper__news__pages {
+    width: 100%;
 }
 .news__menu {
     display: flex;
     justify-content: space-between;
     padding: 0;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 5rem;
 }
 .news__el {
     width: 45%;
@@ -13,7 +20,54 @@
     flex-direction: column;
     justify-content: flex-end;
     list-style: none;
-    padding: 20px;
+    overflow: hidden;
+    border-radius: 7px;
     height: 300px;
-    background: url("./../png/plane.png") no-repeat;
+    background: url("./../png/plane.png") center / cover no-repeat;
+    margin-right: 0;
+}
+.news__el:nth-child(2) {
+    background: url("./../png/Surfer.png") center / cover no-repeat;
+}
+.news__link {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 1REM;
+}
+.wrapper__news__pages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pages__list {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
+.pages__menu {
+    display: flex;
+
+}
+.pages__el {
+    list-style: none;
+    width: 1.3rem;
+
+    border-radius: 50%;
+    height: 1.3rem;
+    margin-right: 1rem;
+}
+.pages__el--active {
+    background: #fff;
+    color: #F5170E;
+    text-align: center;
+
+}
+.pages__el--active .pages__link {
+    color: #F5170E;
+}
+.pages__link:hover {
+    color: #F5170E;
 }
