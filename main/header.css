@@ -1,7 +1,7 @@
 .header {
     font-size: 16px;
     width: 100%;
-    height: 9vh;
+    height: 4rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -13,7 +13,7 @@ justify-content: space-between;
 width: 90%;
 }
 .logo__link {
-flex: 1;
+flex: 0.6;
 display: flex;
 justify-content: flex-start;
 align-items: center;
@@ -21,14 +21,16 @@ align-items: center;
 .menu {
 flex: 2;
 display: flex;
-justify-content: center;
+justify-content: flex-start;
+
 align-items: center;
 
 }
 .main__menu {
 display: flex;
 justify-content: space-between;
-width: 80%;
+width: 60%;
+font-size: 1rem;
 }
 .menu__el {
 list-style: none;

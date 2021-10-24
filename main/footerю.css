@@ -1,0 +1,19 @@
+.footer {
+    display: flex;
+    width: 90%;
+    height: 4rem;
+    color: #fff;
+}
+.soshial {
+    flex: 1;
+}
+.soshial__menu {
+    display: flex;
+    padding: 0;
+    
+    justify-content: space-between;
+}
+
+.sohial__el {
+    list-style: none;
+}
